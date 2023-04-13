@@ -186,7 +186,7 @@
             // 
             this.rtbComments.Location = new System.Drawing.Point(84, 223);
             this.rtbComments.Name = "rtbComments";
-            this.rtbComments.Size = new System.Drawing.Size(176, 70);
+            this.rtbComments.Size = new System.Drawing.Size(176, 93);
             this.rtbComments.TabIndex = 16;
             this.rtbComments.Text = "";
             // 
@@ -201,7 +201,7 @@
             // 
             // btnConfirm
             // 
-            this.btnConfirm.Location = new System.Drawing.Point(84, 353);
+            this.btnConfirm.Location = new System.Drawing.Point(72, 426);
             this.btnConfirm.Name = "btnConfirm";
             this.btnConfirm.Size = new System.Drawing.Size(75, 23);
             this.btnConfirm.TabIndex = 18;
@@ -211,7 +211,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(185, 353);
+            this.btnCancel.Location = new System.Drawing.Point(185, 426);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 19;
@@ -222,7 +222,7 @@
             // chbExtraActivities
             // 
             this.chbExtraActivities.AutoSize = true;
-            this.chbExtraActivities.Location = new System.Drawing.Point(185, 315);
+            this.chbExtraActivities.Location = new System.Drawing.Point(24, 362);
             this.chbExtraActivities.Name = "chbExtraActivities";
             this.chbExtraActivities.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chbExtraActivities.Size = new System.Drawing.Size(115, 17);
@@ -235,7 +235,7 @@
             this.cbStudentGroup.DropDownWidth = 60;
             this.cbStudentGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.cbStudentGroup.FormattingEnabled = true;
-            this.cbStudentGroup.Location = new System.Drawing.Point(55, 299);
+            this.cbStudentGroup.Location = new System.Drawing.Point(84, 322);
             this.cbStudentGroup.Name = "cbStudentGroup";
             this.cbStudentGroup.Size = new System.Drawing.Size(121, 23);
             this.cbStudentGroup.TabIndex = 22;
@@ -244,7 +244,7 @@
             // lStudentGroup
             // 
             this.lStudentGroup.AutoSize = true;
-            this.lStudentGroup.Location = new System.Drawing.Point(10, 303);
+            this.lStudentGroup.Location = new System.Drawing.Point(25, 327);
             this.lStudentGroup.Name = "lStudentGroup";
             this.lStudentGroup.Size = new System.Drawing.Size(36, 13);
             this.lStudentGroup.TabIndex = 23;
@@ -254,7 +254,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(309, 408);
+            this.ClientSize = new System.Drawing.Size(309, 461);
             this.Controls.Add(this.lStudentGroup);
             this.Controls.Add(this.cbStudentGroup);
             this.Controls.Add(this.chbExtraActivities);
@@ -278,7 +278,7 @@
             this.Controls.Add(this.tbFirstName);
             this.Controls.Add(this.lbID);
             this.Controls.Add(this.tbID);
-            this.MaximumSize = new System.Drawing.Size(325, 447);
+            this.MaximumSize = new System.Drawing.Size(325, 500);
             this.MinimumSize = new System.Drawing.Size(325, 447);
             this.Name = "AddEditStudent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
